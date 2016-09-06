@@ -11,6 +11,6 @@ class Dashboard extends MY_Controller
 
 	function index()
 	{
-		echo "home";
+		$this->template->call_admin_template();
 	}
 }
